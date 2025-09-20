@@ -1,5 +1,7 @@
 # IxVentures Jekyll DOM Template
 
+Visit [https://ixventure.github.io/dom-jekyll/](https://ixventure.github.io/dom-jekyll/) to test.
+
 This repository contains the **IxVentures Jekyll DOM Template**, a
 GitHub-hosted **Document Object Model (DOM) architecture**.
 It is both a **technical framework** and a **digital legal formalism object** —
@@ -114,21 +116,7 @@ index_main-rollback-cf64385/
 
 ---
 
-## File Review Links
 
-<details>
-<summary>📑 Expand file review links</summary>
-
-* [gallery.html review](https://github.com/ixventure/index_main/blob/rollback-cf64385/_includes/galleryHtml_github_copilot_review.md)
-* [default.html review](https://github.com/ixventure/index_main/blob/rollback-cf64385/_layouts/defaultHtml_github_copilot_review.md)
-* [project.html review](https://github.com/ixventure/index_main/blob/rollback-cf64385/_layouts/projectHtml_github_copilot_review.md)
-* [project-a.md review](https://github.com/ixventure/index_main/blob/rollback-cf64385/_projects/project-aMd_chatGPT_5_review.md)
-* [project-b.md review](https://github.com/ixventure/index_main/blob/rollback-cf64385/_projects/project-bMd_github_copilot_review.md)
-* [test.md review](https://github.com/ixventure/index_main/blob/rollback-cf64385/_projects/testMd_chatGPT_5_review.md)
-* [style.scss review](https://github.com/ixventure/index_main/blob/rollback-cf64385/assets/css/styleScss_chatGPT_5_review.md)
-* [version.json review](https://github.com/ixventure/index_main/blob/rollback-cf64385/versionjson_chatGPT_5_review.md)
-
-</details>
 
 ---
 
@@ -140,8 +128,8 @@ index_main-rollback-cf64385/
 1. Clone your fork:
 
 ```bash
-git clone https://github.com/USERNAME/ixv-jekyll-minima-template.git
-cd ixv-jekyll-minima-template
+git clone https://github.com/USERNAME/dom-Jekyll.git
+cd dom-Jekyll
 ```
 
 (Optional) Check out a specific commit if needed:
@@ -157,7 +145,7 @@ git checkout COMMIT-HASH
 
 ```yaml
 url: "https://USERNAME.github.io"
-baseurl: "/ixv-jekyll-minima-template"
+baseurl: "/dom-Jekyll"
 ```
 
 3. Optional: Custom domain via CNAME:
