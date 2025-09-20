@@ -53,23 +53,7 @@ The template automatically detects project thumbnail images:
 * Works with any extension (`png, jpg, jpeg, svg`, etc.).
 * Falls back to `/assets/images/logo.png` if no image is found.
 
-Example (home/projects listing):
-
-```liquid
-{%- assign project_files = site.static_files | where_exp: "f", "f.path contains project_path" | sort: "path" -%}
-{%- assign found_thumb = "" -%}
-{%- for f in project_files -%}
-  {%- assign name = f.name | downcase -%}
-  {%- assign parts = name | split: "-" -%}
-  {%- if parts.size > 1 -%}
-    {%- assign number_part = parts.last | split: "." | first -%}
-    {%- if number_part == "1" -%}
-      {%- assign found_thumb = f.path -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
-```
+So, to use the gallery for each project, just name the images you want to use -1.*, -2.*, etc. for the entire slideshow.
 
 ---
 
@@ -128,8 +112,8 @@ index_main-rollback-cf64385/
 1. Clone your fork:
 
 ```bash
-git clone https://github.com/USERNAME/dom-Jekyll.git
-cd dom-Jekyll
+git clone https://github.com/USERNAME/dom-jekyll.git
+cd dom-jekyll
 ```
 
 (Optional) Check out a specific commit if needed:
@@ -145,7 +129,7 @@ git checkout COMMIT-HASH
 
 ```yaml
 url: "https://USERNAME.github.io"
-baseurl: "/dom-Jekyll"
+baseurl: "/dom-jekyll"
 ```
 
 3. Optional: Custom domain via CNAME:
